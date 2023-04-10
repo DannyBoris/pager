@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { api } from "../service/api";
 
 const Container = styled.div`
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;

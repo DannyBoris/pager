@@ -74,7 +74,7 @@ const Editor = () => {
         setData(res.data)
       );
     } else {
-      setData(form.data);
+      setData(form);
     }
   }, []);
   const sections = Object.entries(data ?? {}).map(([k, v]) => ({
