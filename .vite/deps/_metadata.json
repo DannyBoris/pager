@@ -1,0 +1,92 @@
+{
+  "hash": "75f183fa",
+  "browserHash": "144af0a0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "928a33ef",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "6846161d",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "2b96fea6",
+      "needsInterop": false
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "d32bacdf",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "662a4494",
+      "needsInterop": false
+    },
+    "@ant-design/icons": {
+      "src": "../../node_modules/@ant-design/icons/es/index.js",
+      "file": "@ant-design_icons.js",
+      "fileHash": "0aba3e76",
+      "needsInterop": false
+    },
+    "immer": {
+      "src": "../../node_modules/immer/dist/immer.esm.mjs",
+      "file": "immer.js",
+      "fileHash": "020c8dbf",
+      "needsInterop": false
+    },
+    "@dicebear/core": {
+      "src": "../../node_modules/@dicebear/core/lib/index.js",
+      "file": "@dicebear_core.js",
+      "fileHash": "77f3780f",
+      "needsInterop": false
+    },
+    "@dicebear/collection": {
+      "src": "../../node_modules/@dicebear/collection/lib/index.js",
+      "file": "@dicebear_collection.js",
+      "fileHash": "bc0fa753",
+      "needsInterop": false
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "606b3d10",
+      "needsInterop": false
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "92d7fd8c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-7QJUQYKP": {
+      "file": "chunk-7QJUQYKP.js"
+    },
+    "chunk-2MRMY2VI": {
+      "file": "chunk-2MRMY2VI.js"
+    },
+    "chunk-RETNJL3Q": {
+      "file": "chunk-RETNJL3Q.js"
+    },
+    "chunk-6DDWND5A": {
+      "file": "chunk-6DDWND5A.js"
+    },
+    "chunk-UIKQWAX3": {
+      "file": "chunk-UIKQWAX3.js"
+    },
+    "chunk-4EOJPDL2": {
+      "file": "chunk-4EOJPDL2.js"
+    }
+  }
+}

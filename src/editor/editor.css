@@ -1,0 +1,192 @@
+#editor {
+  border: 1px solid rgba(144, 144, 144, 0.3);
+  color: black;
+}
+#editor header {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid rgba(144, 144, 144, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#editor header button {
+  margin-right: 20px;
+}
+.section {
+  margin: 36px 0;
+}
+#editor .title {
+  font-size: var(--heading-size);
+}
+.s_1 {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  justify-content: center;
+}
+.s_1 .text-container {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.s_1 .text-container > h1:first-child {
+  color: var(--main-color);
+}
+
+.s_1 .image-container img {
+  max-width: 100%;
+  height: auto;
+  width: 376px;
+  height: 430px;
+}
+
+.s_1 .cv-button {
+  color: var(--main-color);
+  padding: 13px 40px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  border: 2px solid var(--main-color);
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.s_2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.s_2 .aboutme-container {
+  flex: 0.5;
+  text-align: left;
+}
+.s_2 .title {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.s_2 .skills-container {
+  flex: 0.5;
+}
+.s_2 .skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.s_2 .skill-tag {
+  border-radius: 4px;
+  border: 1px solid #eaf3fb;
+  background: #f1f8fc;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s_3 .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.s_3 .projects .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  padding: 0 12px;
+}
+
+.s_3 .project img {
+  width: 360px;
+
+  height: auto;
+}
+
+.resume-container {
+  display: flex;
+  gap: 10px;
+}
+
+.resume-container > div {
+  flex: 0.5;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.resume-container > div > div > div {
+  box-shadow: var(--generic-box-shadow);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.s_4 .date {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
+.s_4 .h3-title {
+  margin: 0;
+  margin-bottom: 6px;
+}
+.s_5 .tst-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 10px;
+}
+.s_5 .rcmd {
+  box-shadow: var(--generic-box-shadow);
+  text-align: left;
+  padding: 20px;
+}
+
+.s_6 form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:12px
+}
+
+.s_6 form input,
+textarea {
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.s_6 form button {
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  border-radius: 6px;
+  background: var(--main-color);
+  border: none;
+  color: white;
+  align-self: flex-end;
+  width: 100px;
+  padding: 8px;
+}
+
+
+.footer {
+  height: 200px;
+  border-top: 1px solid rgb(144, 144, 144, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content > div:first-child {
+    border-top: 1px solid rgba(144,144,144,.3);
+  }
+.modal-content > div {
+  border-bottom: 1px solid rgba(144,144,144,.3);
+  margin:0 -24px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+}
