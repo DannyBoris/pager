@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 
-const net = axios.create({});
+const net = axios.create({ baseURL: "https://pager-api.onrender.com" });
 
 export async function api(
   path: string,
